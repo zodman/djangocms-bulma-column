@@ -1,4 +1,14 @@
-# Byte-compiled / optimized / DLL files
+*.log
+*.pot
+*.pyc
+.project
+.pydevproject
+.settings
+build
+env*
+dist
+djangocms_column.egg-info
+.idea# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class

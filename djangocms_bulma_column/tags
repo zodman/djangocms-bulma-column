@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Column	models.py	/^class Column(CMSPlugin):$/;"	c
+ColumnPlugin	cms_plugins.py	/^class ColumnPlugin(CMSPluginBase):$/;"	c
+Meta	forms.py	/^    class Meta:$/;"	c	class:MultiColumnForm
+Migration	migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+MultiColumnForm	forms.py	/^class MultiColumnForm(forms.ModelForm):$/;"	c
+MultiColumnPlugin	cms_plugins.py	/^class MultiColumnPlugin(CMSPluginBase):$/;"	c
+MultiColumns	models.py	/^class MultiColumns(CMSPlugin):$/;"	c
+NUM_COLUMNS	forms.py	/^    NUM_COLUMNS = ($/;"	v	class:MultiColumnForm
+__str__	models.py	/^    def __str__(self):$/;"	m	class:Column	file:
+__str__	models.py	/^    def __str__(self):$/;"	m	class:MultiColumns	file:
+__version__	__init__.py	/^__version__ = "1.9.0"$/;"	v
+allow_children	cms_plugins.py	/^    allow_children = True$/;"	v	class:ColumnPlugin
+allow_children	cms_plugins.py	/^    allow_children = True$/;"	v	class:MultiColumnPlugin
+bases	migrations/0001_initial.py	/^            bases=('cms.cmsplugin',),$/;"	v	class:Migration
+child_classes	cms_plugins.py	/^    child_classes = ["ColumnPlugin"]$/;"	v	class:MultiColumnPlugin
+choices	forms.py	/^        choices=NUM_COLUMNS,$/;"	v	class:MultiColumnForm
+cmsplugin_ptr	models.py	/^    cmsplugin_ptr = models.OneToOneField($/;"	v	class:Column
+cmsplugin_ptr	models.py	/^    cmsplugin_ptr = models.OneToOneField($/;"	v	class:MultiColumns
+create	forms.py	/^    create = forms.ChoiceField($/;"	v	class:MultiColumnForm
+dependencies	migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+exclude	forms.py	/^        exclude = ('page', 'position', 'placeholder', 'language', 'plugin_type')$/;"	v	class:MultiColumnForm.Meta
+extra_css	forms.py	/^    extra_css = forms.CharField($/;"	v	class:MultiColumnForm
+extra_css	models.py	/^    extra_css = models.CharField($/;"	v	class:Column
+fields	migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+form	cms_plugins.py	/^    form = MultiColumnForm$/;"	v	class:MultiColumnPlugin
+help_text	forms.py	/^        help_text=_("Create this number of columns")$/;"	v	class:MultiColumnForm
+help_text	forms.py	/^        help_text=_($/;"	v	class:MultiColumnForm
+initial	migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+label	forms.py	/^        label=_("Create Columns"),$/;"	v	class:MultiColumnForm
+label	forms.py	/^        label=_("extra css"),$/;"	v	class:MultiColumnForm
+max_length	models.py	/^        max_length=150$/;"	v	class:Column
+model	cms_plugins.py	/^    model = Column$/;"	v	class:ColumnPlugin
+model	cms_plugins.py	/^    model = MultiColumns$/;"	v	class:MultiColumnPlugin
+model	forms.py	/^        model = MultiColumns$/;"	v	class:MultiColumnForm.Meta
+module	cms_plugins.py	/^    module = _("Multi Columns")$/;"	v	class:ColumnPlugin
+module	cms_plugins.py	/^    module = _("Multi Columns")$/;"	v	class:MultiColumnPlugin
+name	cms_plugins.py	/^    name = _("Column")$/;"	v	class:ColumnPlugin
+name	cms_plugins.py	/^    name = _("Multi Columns")$/;"	v	class:MultiColumnPlugin
+name	migrations/0001_initial.py	/^            name='Column',$/;"	v	class:Migration
+name	migrations/0001_initial.py	/^            name='MultiColumns',$/;"	v	class:Migration
+on_delete	models.py	/^        on_delete=models.CASCADE,$/;"	v	class:Column
+on_delete	models.py	/^        on_delete=models.CASCADE,$/;"	v	class:MultiColumns
+operations	migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+options	migrations/0001_initial.py	/^            options={$/;"	v	class:Migration
+parent_classes	cms_plugins.py	/^    parent_classes = ["MultiColumnPlugin"]$/;"	v	class:ColumnPlugin
+parent_link	models.py	/^        parent_link=True,$/;"	v	class:Column
+parent_link	models.py	/^        parent_link=True,$/;"	v	class:MultiColumns
+related_name	models.py	/^        related_name='%(app_label)s_%(class)s',$/;"	v	class:Column
+related_name	models.py	/^        related_name='%(app_label)s_%(class)s',$/;"	v	class:MultiColumns
+render_template	cms_plugins.py	/^    render_template = "cms\/plugins\/column.html"$/;"	v	class:ColumnPlugin
+render_template	cms_plugins.py	/^    render_template = "cms\/plugins\/multi_column.html"$/;"	v	class:MultiColumnPlugin
+save_model	cms_plugins.py	/^    def save_model(self, request, obj, form, change):$/;"	m	class:MultiColumnPlugin
