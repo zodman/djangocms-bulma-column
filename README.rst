@@ -1,7 +1,9 @@
-djangocms-column
+djangocms-bulma-column
 ================
 
-A Multi Column Plugin for django CMS.
+A Columns of bulma Plugin for django CMS.
+
+based on djangocms-column
 
 
 Installation
