@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup
 
-from djangocms_column import __version__
+from djangocms_bulma_column import __version__
 
 
 INSTALL_REQUIRES = [
