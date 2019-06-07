@@ -1,5 +1,5 @@
 djangocms-bulma-column
-================
+======================
 
 A Columns of bulma Plugin for django CMS.
 
