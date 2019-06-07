@@ -10,8 +10,8 @@ from .models import MultiColumns, Column
 
 class MultiColumnPlugin(CMSPluginBase):
     model = MultiColumns
-    module = _("Multi Columns")
-    name = _("Multi Columns")
+    module = _("Bulma Multi Columns")
+    name = _("Bulma Multi Columns")
     render_template = "cms/plugins/multi_column.html"
     allow_children = True
     child_classes = ["ColumnPlugin"]
@@ -36,8 +36,8 @@ class MultiColumnPlugin(CMSPluginBase):
 
 class ColumnPlugin(CMSPluginBase):
     model = Column
-    module = _("Multi Columns")
-    name = _("Column")
+    module = _("Bulma Multi Columns")
+    name = _("Bulma Column")
     render_template = "cms/plugins/column.html"
     parent_classes = ["MultiColumnPlugin"]
     allow_children = True
